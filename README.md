@@ -27,6 +27,6 @@ This is all built for Python 3, btw.
 To take advantage of the Hot Reload feature, just execute this application like so:
 - `DEBUG=true uvicorn app:app --reload`
 
-Bummer for those using Safar, Hot Reloading doesn't seem to work there.  Just use some other browser for the time being.
+Bummer for those using Safari, Hot Reloading doesn't seem to work there.  Just use some other browser for the time being.
 
 ~ Enjoy! ~
