@@ -48,6 +48,11 @@ async def get_index(request:Request):
     return RedirectResponse("/app")
 
 
+@app.get("/app", summary="Displays the main page", response_class=HTMLResponse)
+async def get_generate_password(request: Request):
+    return templates.TemplateResponse("pages/index.html", {"request": request})
+
+
 # --------------------------------------------------------------------------------
 # Hot Reload
 # --------------------------------------------------------------------------------
